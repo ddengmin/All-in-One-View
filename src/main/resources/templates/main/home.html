@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<script src="js/home.js"></script>
+        <title>title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div th:text="${data}"></div>
+        <th:block th:text="${data}"/>
+        <!-- "th:" 가 포함된 tag attribute는 thymeleaf 문법입니다. -->
+    </body>
+</html>

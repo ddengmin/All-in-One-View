@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<!-- Website title -->
+    	<title>All-in-One View</title>
+    	<!-- CSS Styles -->
+    	<link rel="stylesheet" href="/css/bootstrap.min.css">
+    	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    	<link rel="stylesheet" href="/css/perfect-scrollbar.min.css">
+    	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&amp;subset=devanagari,latin-ext" rel="stylesheet">
+    	<link rel="stylesheet" href="/css/style.css">
+	</head>
+
+	<body>
+
+	    <!-- BEGIN Wrapper -->
+	    <div class="wrapper">
+	
+	 		<!-- START 사이드 메뉴 -->
+	      	<nav id="sidebar">
+		      	<div class="sidebar-header" onclick="javascript:location.href='/main';">
+		 	 		<h1 class="site-title"><img class="imglogo" src="/img/logo.png"><br/>All-in-One View</h1>
+		      	</div>
+		    	<ul class="list-unstyled components">
+		        	<p>Menu</p>
+	<!-- 
+		        	<li class="active">
+		        		<a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false">Home</a>
+		        		<ul class="collapse list-unstyled" id="homeSubmenu">
+		          			<li><a href="#">Home 1</a></li>
+		          			<li><a href="#">Home 2</a></li>
+		          			<li><a href="#">Home 3</a></li>
+		        		</ul>
+		        	</li>
+	 -->
+	<!-- 
+		        	<li>
+		        		<a href="#">About</a>
+		        		<a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false">Pages</a>
+		        		<ul class="collapse list-unstyled" id="pageSubmenu">
+		          			<li><a href="#">Page 1</a></li>
+		          			<li><a href="#">Page 2</a></li>
+		          			<li><a href="#">Page 3</a></li>
+		        		</ul>
+		        	</li>
+	 -->
+		       		<li>
+		        		<a href="/admin">관리자</a>
+		        	</li>
+		       		<li>
+		        		<a href="/spec">개발환경</a>
+		        	</li>
+	<!-- 
+		        	<li>
+		        		<a href="#">Contact</a>
+		        	</li>
+	 -->
+		      	</ul>
+		     	<div class="sidebar-footer">
+					<p class="social-icons">
+	
+		       	 		<a target="_blank" href="#"><i class="fa fa-youtube"></i></a>
+		          		<a target="_blank" href="#"><i class="fa fa-soundcloud"></i></a>
+		          		<a target="_blank" href="#"><i class="fa fa-facebook"></i></a>
+		          		<a target="_blank" href="#"><i class="fa fa-twitter"></i></a>
+		          		<a target="_blank" href="#"><i class="fa fa-google-plus"></i></a>
+	
+		      		</p>
+		       		<p>
+		          	creator <i class="fa fa-love"></i><a href="https://bootstrapthemes.co">None</a>
+		        	</p>
+		     	</div>
+			</nav>
+	      <!-- END 사이드메뉴 -->
+	      <!-- START 햄버거 메뉴 버튼 -->
+	      	<nav id="sidebar-responsive" class="navbar navbar-default">
+	      		<div class="container-fluid">
+	        		<div class="navbar-header">
+	          			<!-- Your website title here -->
+	          			<h1 class="mobile-title" onclick="javascript:location.href='/main';">All-in-One View</h1>
+	          			<button type="button" id="sidebarCollapse" class="navbar-btn pull-right">
+	          				<span></span>
+		          			<span></span>
+	          				<span></span>
+	         			</button>
+	         			<div class="clearfix">
+	          			</div>
+	        		</div>
+	      		</div>
+			</nav>
+	      <!-- END 햄버거 메뉴 버튼 -->
+	
+	      <!-- START 컨텐츠 리스트 -->
+	    	<div id="content">
+	      		<div class="card-columns">
+		<!-- 
+		          <div class="card card-inverse card-primary p-3 text-center" id="card_1">
+		            <blockquote class="card-blockquote">
+		              <h2 class="card-title">애국가 가사 1절</h2>
+		              <p>Show me the money 동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세 무궁화 삼천리 화려강산 대한 사람 대한으로 길이 보전하세</p>
+		              <footer>
+		                <small>
+		                  Someone famous in <cite title="Source Title">Source Title</cite>
+		                </small>
+		              </footer>
+		            </blockquote>
+		          </div>
+		
+		          <div class="card text-center" id="card_2">
+		            <div class="card-block">
+		              <h2 class="card-title">애국가 가사 2절</h2>
+		              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.
+		                남산 위에 저 소나무 철갑을 두른 듯 바람 서리 불변함은 우리 기상일세 무궁화 삼천리 화려강산 대한 사람 대한으로 길이 보전하세
+		              </p>
+		              <p class="card-text">
+		                <small class="text-muted">Last updated 3 mins ago</small>
+		              </p>
+		            </div>
+		          </div>
+	
+		 -->        <!-- coin.js -->
+					<div class="card text-center" >
+		          		<div class="card-block">
+		           			<h2 class="card-title"><img src="/img/01.png" width="25px;" height="25px;"/>&nbsp;가상화폐(비트코인)</h2>
+						  	<table class="table">
+						  		<tbody id="coinTbody">
+						  		</tbody>
+						  	</table>
+		         		</div>
+		       		</div>
+		        	<!-- jusik.js -->
+		        	<div class="card text-center" >
+		          		<div class="card-block">
+		            		<h2 class="card-title"><img src="/img/03.png" width="25px;" height="25px;"/>&nbsp;KOSPI지수</h2>
+	      					<table class="table">
+						  		<tbody id="jusikTbody">
+						  		</tbody>
+							</table>
+		         		</div>
+		        	</div>
+		       		<!-- corona.js -->
+		       		<div class="card text-center" >
+	         			<div class="card-block">
+		            		<h2 class="card-title"><img src="/img/02.png" width="25px;" height="25px;"/>&nbsp;코로나확진자</h2>
+						  	<p id="coronaPTitle"></p>
+						  	<table class="table">	
+						  		<tbody id="coronaTbody">
+						  		</tbody>
+						  	</table>
+	         			</div>
+		       		</div>
+		       		<!-- nalsi.js -->
+		       		<div class="card text-center" >
+		          		<div class="card-block">
+		            		<h2 class="card-title"><img src="/img/06.png" width="30px;" height="30px;"/>&nbsp;날씨</h2>
+						  	<p id="nalsiPTitle"></p>
+						  	<table class="table">
+						  		<tbody id="nalsiTbody">
+						  		</tbody>
+						  	</table>
+		         		</div>
+		        	</div>
+		       		<!-- munji.js -->
+		       		<div class="card text-center" >
+		          		<div class="card-block">
+		            		<h2 class="card-title"><img src="/img/04.png" width="25px;" height="25px;"/>&nbsp;미세먼지</h2>
+						  	<p id="munjiPTitle"></p>
+						  	<table class="table">
+						  		<tbody id="munjiTbody">
+						  		</tbody>
+						  	</table>
+		         		</div>
+		        	</div>
+				</div>
+			</div>
+	    	<!-- END 컨텐츠 리스트 -->
+	    	<div class="loadingWrap" style="display:none;">
+			    <div class="loading">
+		      		<span></span>   <!--1. span은 하나의 원이다. -->
+		      		<span></span>
+		      		<span></span>
+			    </div>
+		    </div>
+	    </div>
+	    <!--END Wrapper -->
+	
+	    <!-- BEGIN Scripts -->
+	    <script src="/js/jquery.js"></script>    
+	    <script src="/js/tether.min.js"></script>
+	    <script src="/js/bootstrap.min.js"></script>
+	    <script src="/js/perfect-scrollbar.min.js"></script>
+	    <script src="/js/common.js"></script>
+	    <script src="/api/munji.js"></script>
+	    <script src="/api/coin.js"></script>
+	    <script src="/api/corona.js"></script>
+	    <script src="/api/jusik.js"></script>
+	    <script src="/api/nalsi.js"></script>
+	  
+	    <!-- END Scripts -->
+	
+		<script>
+		$('.loadingWrap').show();
+		$(document).ready(function(){
+			// sidebar menu active class
+	  		$('#sidebarCollapse').on('click', function () {
+	      		$('#sidebar').toggleClass('active');
+	       		$(this).toggleClass('active');
+	      	});
+	   		// sidebar scroll
+	      	function changeSize() {
+	       		var width = parseInt($("#Width").val());
+	   	        var height = parseInt($("#Height").val());
+	
+	   	        if(!width || isNaN(width)) {
+	   	          width = 600;
+	   	        }
+	   	        if(!height || isNaN(height)) {
+	   	          height = 400;
+	   	        }
+	   	        $("#sidebar").width(width).height(height);
+	   	        Ps.update(document.getElementById('sidebar'));
+	   	      }
+			$(function() {
+	       		Ps.initialize(document.getElementById('sidebar'));
+	   		});
+	  	  	coin.getCallAjax();
+	      	jusik.getCallAjax();
+	      	corona.getCallAjax();
+	       	munji.getCallAjax();
+	       	nalsi.getCallAjax();
+	       	setTimeout(() => {$('.loadingWrap').hide();}, 2500);
+		});
+		</script>
+	</body>
+</html>
