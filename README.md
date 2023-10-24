@@ -3,6 +3,8 @@ Spring Boot를 활용하여 JPA를 통해 몽고DB로 사이트 방문자 정보
 
 프론트단과 백엔드에서 API를 호출하며 실시간 데이터로 각종현황을 보여줍니다.
 
+통계 페이지는 Chart.js를 사용했으며, 메인페이지 접속시 방문자 수를 1씩 카운트합니다.
+
 # 주요 기능
 
 ![깃꾸용1](https://github.com/ddengmin/All-in-One-View/assets/82636319/6e50082e-4322-40c7-acae-bef443a22929)
